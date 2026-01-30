@@ -1,0 +1,19 @@
+
+json {
+"name"; "family-smokehouse-server",
+"version":
+"1.0.8", "description":
+"Socket.IO server for Family Smokehouse multiplayer game".
+"main":
+"scripts": {
+"index.js".
+"start": "node index.js",
+"dev": "node --watch index.js"
+"dependencies": {
+"socket.io":
+"^4.7.4"
+},
+"engines": {
+"node":
+">=18"
+}}
